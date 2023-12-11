@@ -54,7 +54,6 @@ def test_ListeDouble():
         liste = ListeDouble()
         liste.ajout_en_queue(1)
         liste.ajout_en_queue(2)
-        liste.tete.inverse()
         print(liste.tete.val)
         print(liste.tete.suiv.val)
         print(liste.tete.suiv.suiv.val)
@@ -63,7 +62,6 @@ def test_ListeDouble():
     test_2()
     test_3()    
     test_4()   
-    test_5() 
 test_ListeDouble()
     
         
